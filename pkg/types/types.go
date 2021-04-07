@@ -13,6 +13,5 @@ const (
 //Payment представляет информатцию о платеж.
 type Payment struct {
 	ID       int
-	Amount   Money
 	Category Category
 }
